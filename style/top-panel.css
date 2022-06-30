@@ -1,0 +1,30 @@
+.top-panel {
+    position: relative;
+    min-height: 74px;
+    background-blend-mode: darken;
+    background-image: linear-gradient(to top, #f9236f, #f92346);    
+}
+.top-panel_img {
+    position: absolute;
+    width: 100%;    
+    transform: translateX(-50%);
+    height: 74px;
+    left: 50%;
+    background-image: url(/src/Layer1.png);        
+    opacity: 0.42;
+    mix-blend-mode: multiply;
+}
+.top-panel_items {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;    
+    align-items: center;
+    min-height: 74px;
+}
+.top-panel_items-text {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
