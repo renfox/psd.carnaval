@@ -10,7 +10,7 @@
     transform: translateX(-50%);
     height: 74px;
     left: 50%;
-    background-image: url(./src/Layer1.png);        
+    background-image: url(./Layer1.png);        
     opacity: 0.42;
     mix-blend-mode: multiply;
 }
