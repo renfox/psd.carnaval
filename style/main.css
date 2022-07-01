@@ -1,7 +1,7 @@
-@import url(/style/top-panel.css) screen;
-@import url(/style/header.css) screen;
-@import url(/style/bg-fashion.css) screen;
-@import url(/style/font-awesome-4.7.0/css/font-awesome.min.css) screen;
+@import url(../style/top-panel.css) screen;
+@import url(../style/header.css) screen;
+@import url(../style/bg-fashion.css) screen;
+@import url(../style/font-awesome-4.7.0/css/font-awesome.min.css) screen;
 * {
     margin: 0;
     text-decoration: none;
