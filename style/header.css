@@ -4,7 +4,7 @@
     
 }
 .header:before {    
-    background-image: url(./src/Rectangle4.png);
+    background-image: url(../src/Rectangle4.png);
     background-size: contain;
     height: 100%;
     width: 100%;
