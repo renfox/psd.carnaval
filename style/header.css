@@ -1,0 +1,50 @@
+.header {
+    position: relative;
+    z-index:1;
+    
+}
+.header:before {    
+    background-image: url(/src/Rectangle4.png);
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index:-1;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:0;
+    content: '';
+}
+.header_top {
+    display: grid;
+    grid-template-areas: 'hello email lang-currency';
+    justify-content: space-between;
+    grid-auto-columns: 1fr 2fr 1fr;
+    padding-top: 48px;
+    padding-bottom: 20px;
+}
+.header_buttom {
+    display: grid;
+    grid-template-areas: 'logo menu icons';
+    justify-content: space-between;
+    grid-auto-columns: 2fr 2fr 1fr;
+    border-top: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+.header_lang-currency, .header_menu {
+    text-align: right;
+}
+.header_menu-items, .header_icons {
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.header_search input {
+    display:none;
+}
+.header_icons {
+    gap:40px;
+}

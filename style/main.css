@@ -1,4 +1,7 @@
 @import url(/style/top-panel.css) screen;
+@import url(/style/header.css) screen;
+@import url(/style/bg-fashion.css) screen;
+@import url(/style/font-awesome-4.7.0/css/font-awesome.min.css) screen;
 * {
     margin: 0;
     text-decoration: none;
@@ -6,6 +9,11 @@
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;
+}
+@media (max-width: 1400px) {
+    .bg-fashion {
+        background-size: contain;
+    }
 }
 @media (max-width: 1440px) and (min-width: 980px) {
     .top-panel_img {
