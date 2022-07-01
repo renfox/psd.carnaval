@@ -1,6 +1,6 @@
 .bg-fashion {
     position: absolute;
-    background-image: url(/src/Rectangle1.png);
+    background-image: url(./src/Rectangle1.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 940px;
