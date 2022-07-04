@@ -2,4 +2,9 @@
 @import url(./header.css) screen;
 @import url(./bg-fashion.css) screen;
 @import url(./media.css) screen;
+@import url(./suggestions.css) screen;
 @import url(./font-awesome-4.7.0/css/font-awesome.min.css) screen;
+
+body {
+    background-image: url(../src/back-bg.png);
+}
