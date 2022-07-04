@@ -3,6 +3,35 @@
     width: 100%;
 }
 .benefits_items {
-    background-color: white;
+    position: relative;
     height: 1220px;
+    background-color: white;    
+}
+.benefits_icons {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+.benefits_circle {    
+    width: 126px;
+    height: 126px;
+    border-radius: 63px;
+    background-color: #fff;
+}
+.circle-pos1, .circle-pos2, .circle-pos3 {
+    position: relative;
+    top: -4rem;
+    margin: 0 auto;
+}
+.benefits_icons-text {
+    width: 223px;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 auto;
+}
+.benefits_icons-text span {
+    font-size: 15px;
+    font-weight: 500;
 }
