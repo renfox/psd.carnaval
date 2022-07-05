@@ -7,7 +7,7 @@
     flex-basis: 563px;    
     height: 292px;
     display: grid;
-    grid-template-columns: 228px;
+    grid-template-columns: 265px;
     grid-template-rows: 1fr 1fr 150px;
     row-gap: 10px;
 }
