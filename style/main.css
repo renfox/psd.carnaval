@@ -17,12 +17,3 @@ body {
 .mg_40 {
     margin-left: 40px;
 }
-.bg_link {    
-    width: 126px;   
-    padding: 16px 21px 15px 22px;
-    background-image: linear-gradient(to top, #f9236f, #f92346);
-    font-size: 21px;
-    font-weight: 900;
-    text-align: center;
-    color:white;
-}

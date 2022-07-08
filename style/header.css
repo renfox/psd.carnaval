@@ -36,6 +36,7 @@
     grid-template-areas: 'logo menu icons';
     justify-content: space-between;
     grid-auto-columns: 2fr 2fr 1fr;
+    align-items: baseline;
     border-top: 1px solid black;
     padding-top: 20px;
     padding-bottom: 20px;
