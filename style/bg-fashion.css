@@ -12,18 +12,17 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    position: absolute;
+    position: relative;
     background-image: url(../src/Rectangle1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 940px;
+    height: 940px;
     width: 100%;
-    top: 4.6rem;
+    bottom: 11rem;
 }
 .bg-fashion_block {
     position: relative;
     max-width: 569px;
-    margin-right: 30rem;
     display: flex;
     flex-direction: column;
 }

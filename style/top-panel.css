@@ -1,5 +1,5 @@
 .top-panel {
-    position: sticky;
+    position: relative;
     top: 0;
     min-height: 74px;
     background-blend-mode: darken;

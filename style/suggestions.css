@@ -1,6 +1,7 @@
 .suggestions {
-    position: absolute;
     width: 100%;
+    position: relative;
+    bottom: 11rem;
 }
 .benefits_items {
     position: relative;

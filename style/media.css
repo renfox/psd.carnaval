@@ -7,144 +7,19 @@
     max-width: 1400px;
     margin: 0 auto;
 }
-@media (max-width: 1400px) {
-    .bg-fashion {
-        background-size: contain;
-    }
-}
-
 @media (min-width: 1200px) and (max-width: 1440px) {
     .wrapper {
         max-width: 1200px;        
     }
     
 }
-
-@media (max-width: 1440px) and (min-width: 992px) {
-    .top-panel__img {
-        background-size: contain;
-    }
-    .top-panel__items, .header {
-        padding: 0 30px 0 30px;
-    }
-}
-@media (max-width:1200px) {
-    .bg-fashion_block {
-        margin-bottom: 9rem;
-    }
-    .bg-fashion_h1 {
-        font-size: 90px;
-    }
-    .bg-fashion_h1 span {
-        margin-left: 1rem;
-    }
-    .bg-fashion_h3 {
-        font-size: 33px;
-        margin-left: 2rem;
-    }
-    .bg-fashion_text {
-        width: 400px;
-        text-align: left;
-        margin-left: 1rem;
-    }
-    .fashion__link {
-        margin-right: 7rem;
-    }
-    .benefits__promo-block, .benefits__promo-block2 {
-        flex-basis: 466px;
-    }
-    .benefits__h3 {
-        font-size: 46px;
-    }
-    .benefits__text {
-        font-size: 14px;
-    }
-    .benefits__link {
-        font-size: 19px;
-        padding: 14px 19px 13px 20px;
-        width: 122px;
-    }
-}
 @media (min-width: 992px) and (max-width: 1200px) {
     .wrapper {
         max-width: 1024px;        
-    }
-    .top-panel__items-text {
-        font-size: 19px;
-    }
-    
+    }    
 }
 @media (max-width: 992px) and (min-width:768px) {
     .wrapper {
         max-width: 768px;        
-    }
-    .top-panel__items, .header {
-        padding: 0 40px 0 40px;
-    }
-    .header__top {
-        grid-auto-columns: 1fr 1fr 1fr;
-    }
-    .header__buttom {
-        grid-auto-columns: 0.5fr 1fr 1fr;
-    }
-    .bg-fashion_block {
-        margin-bottom: 15rem;
-    }
-    .bg-fashion_h1 {
-        font-size: 70px;
-    }
-    .bg-fashion_h3 {
-        font-size: 16px;
-        margin-left: 1rem;
-        letter-spacing: 80.16px;
-    }
-    .bg-fashion_text {
-        margin-top: 1rem;
-        width: 288px;
-        margin-left: 1rem;
-        font-size: 12px;
-    }
-    .fashion__link {
-        width: 108px;
-        padding: 12px 17px 12px 17px;
-        margin-right: 10rem;
-        font-size: 18px;
-    }
-    .benefits__promo-block, .benefits__promo-block2{
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        flex-basis: 345px;
-    }
-    .benefits__h3 {
-        font-size: 36px;
-    }
-    .benefits__text {
-        font-size: 12px;
-        max-width: 150px;;
-    }
-    .benefits__link {
-        width: 81px;
-        padding: 11px 19px 10px 20px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 767px) and (min-width:576px) {
-    .top-panel__items, .header {
-        padding: 0 40px 0 40px;
-    }
-    .header__top {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        position: relative;
-    }
-    .header__lang-currency {
-        position: absolute;
-        right: 0
-    }
-    .header__buttom {
-        grid-auto-columns: 0.5fr 1fr 1fr;
-    }
+    }    
 }
