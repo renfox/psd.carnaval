@@ -2,9 +2,10 @@
     position: relative;
     min-height: 74px;
     background-blend-mode: darken;
-    background-image: linear-gradient(to top, #f9236f, #f92346);    
+    background-image: linear-gradient(to top, #f9236f, #f92346);
+    z-index: -1;    
 }
-.top-panel_img {
+.top-panel__img {
     position: absolute;
     width: 100%;    
     transform: translateX(-50%);
@@ -13,8 +14,9 @@
     background-image: url(../src/Layer1.png);        
     opacity: 0.42;
     mix-blend-mode: multiply;
+    z-index: -2;
 }
-.top-panel_items {
+.top-panel__items {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -22,9 +24,19 @@
     align-items: center;
     min-height: 74px;
 }
-.top-panel_items-text {
-    font-family: Montserrat;
+.top-panel__items-text {
     font-size: 21px;
     font-weight: bold;
     color: white;
+}
+.top-panel__items-close {
+    text-decoration:none; 
+    text-align:center; 
+    padding:6px 10px;
+    -webkit-border-radius:22px;
+    -moz-border-radius:22px; 
+    border-radius: 22px;  
+    background-color:white; 
+    font-size: 17px;
+    font-weight: 800;
 }

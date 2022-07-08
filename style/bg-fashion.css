@@ -19,7 +19,6 @@
 }
 
 .bg-fashion_h1 {
-    font-family: Montserrat;
     font-size: 122.5px;
     font-weight: 800;
     max-width: 242px;
@@ -33,7 +32,6 @@
     color: black;
 }
 .bg-fashion_h3 {
-    font-family: Montserrat;
     font-size: 50.5px;
     font-weight: 800;
     letter-spacing: 92.16px;    
@@ -41,7 +39,6 @@
     margin-left: 7rem;
 }
 .bg-fashion_text {
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 500;
     text-align: center;

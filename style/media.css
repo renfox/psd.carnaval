@@ -1,6 +1,7 @@
 * {
     margin: 0;
     text-decoration: none;
+    color:black;
 }
 .wrapper {
     max-width: 1400px;
@@ -20,50 +21,89 @@
 }
 
 @media (max-width: 1440px) and (min-width: 992px) {
-    .top-panel_img {
+    .top-panel__img {
         background-size: contain;
     }
-    .top-panel_items, .header {
+    .top-panel__items, .header {
         padding: 0 30px 0 30px;
     }
 }
-
+@media (max-width:1200px) {
+    .bg-fashion_block {
+        margin-bottom: 9rem;
+    }
+    .bg-fashion_h1 {
+        font-size: 90px;
+    }
+    .bg-fashion_h1 span {
+        margin-left: 1rem;
+    }
+    .bg-fashion_h3 {
+        font-size: 33px;
+        margin-left: 2rem;
+    }
+    .bg-fashion_text {
+        width: 400px;
+        text-align: left;
+        margin-left: 1rem;
+    }
+    .fashion__link {
+        margin-right: 7rem;
+    }
+    .benefits__promo-block, .benefits__promo-block2 {
+        flex-basis: 466px;
+    }
+    .benefits__h3 {
+        font-size: 46px;
+    }
+    .benefits__text {
+        font-size: 14px;
+    }
+    .bg_link {
+        font-size: 19px;
+        padding: 14px 19px 13px 20px;
+        width: 122px;
+    }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
     .wrapper {
         max-width: 1024px;        
     }
-    .top-panel_items-text {
+    .top-panel__items-text {
         font-size: 19px;
     }
     
 }
 @media (max-width: 992px) and (min-width:768px) {
-    .top-panel_items, .header {
+    .wrapper {
+        max-width: 768px;        
+    }
+    .top-panel__items, .header {
         padding: 0 40px 0 40px;
     }
-    .header_top {
+    .header__top {
         grid-auto-columns: 1fr 1fr 1fr;
     }
-    .header_buttom {
+    .header__buttom {
         grid-auto-columns: 0.5fr 1fr 1fr;
     }
 }
 
 @media (max-width: 767px) and (min-width:576px) {
-    .top-panel_items, .header {
+    .top-panel__items, .header {
         padding: 0 40px 0 40px;
     }
-    .header_top {
+    .header__top {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         position: relative;
     }
-    .header_lang-currency {
+    .header__lang-currency {
         position: absolute;
         right: 0
     }
-    .header_buttom {
+    .header__buttom {
         grid-auto-columns: 0.5fr 1fr 1fr;
     }
 }

@@ -1,13 +1,18 @@
 @import url(./top-panel.css) screen;
 @import url(./header.css) screen;
 @import url(./bg-fashion.css) screen;
-@import url(./media.css) screen;
 @import url(./suggestions.css) screen;
 @import url(./benefits__promo-blocks.css) screen;
 @import url(./font-awesome-4.7.0/css/font-awesome.min.css) screen;
+@import url(./media.css) screen;
 
 body {
     background-image: url(../src/back-bg.png);
+    font-family: Montserrat;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
 }
 .mg_40 {
     margin-left: 40px;
@@ -16,7 +21,6 @@ body {
     width: 126px;   
     padding: 16px 21px 15px 22px;
     background-image: linear-gradient(to top, #f9236f, #f92346);
-    font-family: Montserrat;
     font-size: 21px;
     font-weight: 900;
     text-align: center;
