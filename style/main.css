@@ -1,3 +1,4 @@
+@import url(./uni_classes.css) screen;
 @import url(./top-panel.css) screen;
 @import url(./header.css) screen;
 @import url(./bg-fashion.css) screen;
@@ -6,15 +7,4 @@
 @import url(./font-awesome-4.7.0/css/font-awesome.min.css) screen;
 @import url(./media.css) screen;
 
-body {
-    background-image: url(../src/back-bg.png);
-    font-family: Montserrat;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    min-height: 2440px;
-}
-.mg_40 {
-    margin-left: 40px;
-}
+

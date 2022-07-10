@@ -1,0 +1,31 @@
+body {
+    background-image: url(../src/back-bg.png);
+    font-family: Montserrat;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    min-height: 2440px;
+}
+* {
+    margin: 0;
+    text-decoration: none;
+    color:black;
+    box-sizing: border-box;
+}
+.mg_40 {
+    margin-left: 40px;
+}
+
+.mg_11 {        
+    margin-left: 11px;
+}
+.bg_link {    
+    width: 126px;   
+    padding: 16px 21px 15px 22px;
+    background-image: linear-gradient(to top, #f9236f, #f92346);
+    font-size: 21px;
+    font-weight: 900;
+    text-align: center;
+    color:white;
+}

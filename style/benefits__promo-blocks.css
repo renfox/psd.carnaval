@@ -13,9 +13,11 @@
 }
 .benefits__promo-block {
     background-image: url(../src/promo-block.png);
+    background-repeat: no-repeat;
 }
 .benefits__promo-block2 {
     background-image: url(../src/promo-block2.png);
+    background-repeat: no-repeat;
 }
 .benefits__h3 {
     font-size: 49px;
